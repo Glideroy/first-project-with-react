@@ -18,7 +18,7 @@ export  function TaskList() {
 
     //APLICANDO ESTILOS CON TailwinCSS
     return (
-        <div className='grid grid-cols-4 gap-2'>
+        <div className='grid grid-cols-2 gap-2'>
             {Tasks.map((tarea, index)=>{
                 return(
                     <TaskCard Task={tarea} key={index} ></TaskCard>

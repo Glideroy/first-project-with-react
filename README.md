@@ -1,3 +1,3 @@
 # React + Vite
-
-[Visita mi aplicación]([https://usuario.github.io/repo/](https://glideroy.github.io/first-project-with-react/)https://glideroy.github.io/first-project-with-react/)
+### Enlace a la página desplegada:
+[Visita mi aplicación] (https://glideroy.github.io/first-project-with-react/)

@@ -4,11 +4,7 @@ import { TaskContext } from "../context/TaskContext";
 
 export function TaskCard({Task}){
 
-/**
-    function MostrarAlerta (){
-        alert(Task.id)
-    }
- */
+
     const {deleteTask} = useContext(TaskContext)
 
     //APLICANDO ESTILOS CON TailwinCSS

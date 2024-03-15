@@ -1,7 +1,7 @@
 export const TAREAS =[
     {
         id: 0,
-        title: 'Comprar comestibles',
+        title: 'Comprar Alimentos',
         descripcion: 'Ir al supermercado y comprar los ingredientes necesarios para la semana.'
     },
     {

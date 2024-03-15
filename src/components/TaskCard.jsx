@@ -14,7 +14,7 @@ export function TaskCard({Task}){
     //APLICANDO ESTILOS CON TailwinCSS
     return(
         <>
-            <div className="bg-gray-800 text-white p-4 rounded-md">
+            <div className="bg-gray-800 text-white p-2 rounded-md">
                 <h3 className="text-3xl font-bold capitalize">{Task.title}</h3>
                 <p className="text-gray-400 text-sm">{Task.descripcion}</p>
                 <button 

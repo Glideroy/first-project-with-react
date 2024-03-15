@@ -7,7 +7,7 @@ import {TaskContext} from '../context/TaskContext'
 
 export function TaskForm (){
 
-    const [Title, setTitle] = useState('')''
+    const [Title, setTitle] = useState('')
     const [Descripcion, setDescripcion] = useState('')
     const {createTask} = useContext(TaskContext)
     const handleSubmid =(e)=>{

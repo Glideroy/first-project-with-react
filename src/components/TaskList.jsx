@@ -19,11 +19,13 @@ export  function TaskList() {
     //APLICANDO ESTILOS CON TailwinCSS
     return (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gridAutoRows: 'minmax(100px, auto)', gap: '1rem' }}>
-            {Tasks.map((tarea, index)=>{
-                return(
-                    <TaskCard Task={tarea} key={index} ></TaskCard>
-                )
-            })}
+            <center>
+                {Tasks.map((tarea, index)=>{
+                    return(
+                        <TaskCard Task={tarea} key={index} ></TaskCard>
+                    )
+                })}
+            </center>
         </div>
     )
 }

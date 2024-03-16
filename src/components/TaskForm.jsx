@@ -11,6 +11,7 @@ export function TaskForm (){
     const [Descripcion, setDescripcion] = useState('')
     const {createTask} = useContext(TaskContext)
     const handleSubmid =(e)=>{
+        e.preventDefault()
         const addTask = {
             title: Title,
             descripcion: Descripcion
